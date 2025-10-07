@@ -1,23 +1,23 @@
-# 来搭建一个基础的环境吧
+# Let's Set Up a Basic Environment
 
-哦我的上帝啊要是每次重新装Linux系统都要重新配一遍环境还是太吃操作了,有没有更加简单快速地方法呢?
+Oh my God! It's way too tedious to reconfigure the environment every time I reinstall Linux. Is there a simpler and faster way?
 
-有的兄弟有的,你可以用一个bash脚本来完成
+Yes, my friend—there is! You can automate this with a Bash script.
 
-## ⭐ 基本要求
+## ⭐ Basic Requirements
 
-搞一个bash脚本来搭建基础环境，包括以下部分：
+Create a Bash script to set up a basic environment, including the following components:
 
-- git
-- docker
-- python 3
-- pip3
-- curl
-- ssh 禁用密码登录并设置 ssh 超时时间为至少 10 分钟
-- 切换系统 locale 为中文
-- 更新所有软件为最新
+- git  
+- docker  
+- Python 3  
+- pip3  
+- curl  
+- Disable SSH password authentication and set SSH timeout to at least 10 minutes  
+- Switch system locale to Chinese  
+- Update all packages to their latest versions  
 
-## ❗拓展要求
+## ❗ Advanced Requirements
 
-- 来点有意思的的功能,比如日志/支持多个Linux发行版/支持切换安装源/你的奇思妙想
-- 可以直接放在公网上面(比如github),这样想用可以直接curl了
+- Add some interesting features—for example: logging, support for multiple Linux distributions, ability to switch package repositories, or any creative ideas you have!  
+- Host the script publicly (e.g., on GitHub), so it can be directly downloaded and executed via `curl`.
